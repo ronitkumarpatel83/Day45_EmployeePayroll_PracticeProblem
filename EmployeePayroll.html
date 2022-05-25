@@ -9,6 +9,8 @@
     <title>EmployeePayroll</title>
 </head>
 <body>
+    <script src="../Day45_EmployeePayroll_PracticeProblem/js/EmployeePayroll.js"></script>
+    <script src="../Day45_EmployeePayroll_PracticeProblem/js/EmployeePayrollData.js"></script>
     <header class="header-content header">
         <div class="logo-content">
             <img src="assets/images/logo.png" alt="png">
@@ -24,6 +26,7 @@
         <div class="row-content">
             <label class="label text" for="name">Name</label>
             <input class="name" placeholder="Your name" required="name">
+            <error-output class="text-error" for="text"></error-output>
         </div>
         <div class="row-content">
             <label class="label text" for="profile">Profile image</label>
@@ -162,5 +165,6 @@
             output.textContent=salary.value;
         });
     </script>
+    
 </body>
 </html>
